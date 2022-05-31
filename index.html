@@ -1,16 +1,35 @@
 <html>
-    <head>
+    <head><!--anything you want to style is done in head -->
+        <title>HTML TEST</title>
+        <!-- <style>
+            
+            .first-heading{
+                color: red;
+                font-size: 15px;
+                font-weight: bold;
+                text-decoration-line: underline;
+                text-decoration-line: line-through;
+                text-decoration-line: overline;
+                font-style: italic;         
+            }
+            h2{
+                color:blue;
+            }
+        </style> -->
+        <link rel="stylesheet" href="style.css">
 
     </head>
-    <body>
-        <h1>Cogoport</h1>
+    <body><!--anything you want to show on webpage goes into body-->
+        <h1 id="first-heading">Cogoport</h1><!-- if we have two same heading i.e. h1 h1 are two heading and to style them differently we need to give them id -->
+        <!-- id has more importance than class if we give id and class bot to a tag it will go with id -->
+        <h1 id="second-heading">Cogoport</h1>
         <h2>heading 2</h2>
         <h3>heading 2</h3>
         <h4>heading 2</h4>
         <h5>heading 2</h5>
         <h6>heading 2</h6>
-        <p>Paragraph</p>
-        <a href = "https://google.com">link</a>
+        <p class="first-heading">Paragraph</p><!--to add same styling to multiple tags we need to make a style class-->
+        <a href = "about.html">link</a>
         <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"/><!--https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg -->
         <!-- <a href = "https://google.com"><img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"/></a> -->
         <button>file</button>
@@ -24,11 +43,25 @@
 
 
         <br><!-- breaks or ends the line -->
-
+<!-- difference between id and class is id is unique for each tag whereas class is defined to be used by multiple tags -->
 
         <input type="checkbox" checked />
         <input type="checkbox"/>
-        <input type="checkbox"/>        
+        <input type="checkbox"/>
+        
+        <br>
+
+        <input type="radio" name="test"/> 
+        <input type="radio" name="test"/> <!-- to select only one choice in radio button we have to link all the choices and to do so we need to give them same name-->
+
+        <br>
+        <select>
+            <option>option 1</option>
+            <option selected>option 2</option><!--selected attribute shows the option selected at the screen when the form is loaded-->
+            <option>option 3</option>
+            <!--option * n to get n option tag for selection n can be any positive integer value-->
+            <!-- to clear multiple things at same time press option and select the lines to be deleted -->
+        </select>
 
     </body>
 

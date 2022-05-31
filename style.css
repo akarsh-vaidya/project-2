@@ -1,0 +1,21 @@
+h1{
+    color:blue !important;
+    border: 1px solid black;
+    padding: 100px;
+    padding: 100px 50px 10px 40px;/* clockwise 100 top 50 right 10 bottom 40 left*/
+    margin: 100px;
+}
+
+/* internal css has higher preference than external css and inline css has higher preference than internal and external  */
+/* 
+level of importance
+inline 
+internal
+external
+
+if you set a certain property as important (keyword important) it will reshape the importance of attributes
+*/
+
+/* 
+border is to set the border around the text padding is to give space around the text margin is to give the space to the box from the page 
+*/
