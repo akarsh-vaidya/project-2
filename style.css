@@ -3,6 +3,7 @@ h1{
     border: 1px solid black;
     padding: 100px;
     padding: 100px 50px 10px 40px;/* clockwise 100 top 50 right 10 bottom 40 left*/
+    padding: 100px 50px 40px;/* clockwise 100 top 50 right left 10 bottom*/
     margin: 100px;
 }
 
